@@ -61,10 +61,10 @@ resnet.ipynb:a notebook that evaluates scaling of resnet18 model.
 
 scalingresults.ipynb: a notebook that executes previously trained and scaled efficient nets to compare to the results int the previous notebooks.
 
-Setup
+# Setup
 To use these notebooks, you will need a access to files on my personal drive. 
 
-Outputs
+# Outputs
 The outputs of the notebooks are organized in the output folder according to the notebooks they're obtained from.
 of the input image. This inter dependency and variable nature of the optimal values make finding the most effective
 solution a complex task.
