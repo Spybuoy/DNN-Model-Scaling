@@ -28,6 +28,19 @@ model performance.
 One of the primary challenges presented in the paper is the interconnectedness of the optimal scaling values for depth,
 width, and resolution, which are also prone to fluctuation under various resource constraints. As a result, traditional
 approaches to scaling ConvNets typically focus on a single dimension, whether it be the depth, width, or resolution
+
+#Files
+This file contains the following Jupyter notebooks:
+
+mobilenet.ipynb: a notebook that evaluates scaling of mobilenet model.
+resnet.ipynb:a notebook that evaluates scaling of resnet18 model.
+scalingresults.ipynb: a notebook that executes previously trained and scaled efficient nets to compare to the results int the previous notebooks.
+
+Setup
+To use these notebooks, you will need a shared drive ESE5390. The code will work automatically and will have no issues. 
+
+Outputs
+The outputs of the notebooks are organized in the output folder according to the notebooks they're obtained from.
 of the input image. This inter dependency and variable nature of the optimal values make finding the most effective
 solution a complex task.
 The paper introduces the concept of a "Compound Scaling Coefficient" referred to as 𝜙, which is subject to constraints
