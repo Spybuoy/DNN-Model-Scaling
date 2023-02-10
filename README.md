@@ -1,5 +1,4 @@
-# EfficientNet
-ABSTRACT
+# ABSTRACT
 Convolutional neural networks (CNNs) are a type of artificial neural network that are commonly used for image and video recognition
 tasks. They are designed to process data with a grid-like topology, such as an image, by applying a series of filters to the input data to
 extract features and make predictions. In order to improve the accuracy of CNNs, it is often necessary to scale them up by increasing
@@ -7,7 +6,7 @@ the number of filters (i.e., the width), the number of layers (i.e., the depth),
 as compound scaling. In this project, I am investigating the implementation of compound scaling to improve the performance of
 various neural networks.
 
-1 INTRODUCTION
+# INTRODUCTION
 The scaling of neural networks is a critical aspect of machine learning that has garnered a great deal of attention in
 the field. In this project, I aimed to delve deeper into this complex problem by exploring the use of the compound
 scaling approach to scale various networks in terms of depth, width, and image resolution. By treating the compound
@@ -24,8 +23,8 @@ has suggested that there may be a relationship between network width and depth, 
 this relationship, as well as the relationship between all three dimensions of network width, depth, and resolution.
 Through this work, we hope to gain a greater understanding of how these different dimensions interact and influence
 model performance.
-2 METHODOLOGY
-𝛼.𝛽2.𝛾2 ≈ 2𝛼 ≥ 1, 𝛽 ≥ 1,𝛾 ≥ 1
+
+# METHODOLOGY
 One of the primary challenges presented in the paper is the interconnectedness of the optimal scaling values for depth,
 width, and resolution, which are also prone to fluctuation under various resource constraints. As a result, traditional
 approaches to scaling ConvNets typically focus on a single dimension, whether it be the depth, width, or resolution
