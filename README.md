@@ -56,7 +56,9 @@ models for specific tasks.
 This repository contains the following Jupyter notebooks:
 
 mobilenet.ipynb: a notebook that evaluates scaling of mobilenet model.
+
 resnet.ipynb:a notebook that evaluates scaling of resnet18 model.
+
 scalingresults.ipynb: a notebook that executes previously trained and scaled efficient nets to compare to the results int the previous notebooks.
 
 Setup
